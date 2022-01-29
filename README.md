@@ -1,10 +1,10 @@
-##Bechdel test
+## Bechdel test
 ![image info](super_woman.png)
 
-#### there are two parts to this:
-1.  and example of training sofware to train a binary classifier using twitter data split into male and female to clasify script text.
+#### There are two parts to this:
+1. An example of training sofware to train a binary classifier using twitter data split into male and female to clasify script text.
 
-2. notebook which evaluates condition one of bechdel test calculated by comparing names in script with male and female names and verifies against ground truth of films that have been verified to pass the bechdel test.
+2. A notebook which evaluates condition one of bechdel test calculated by comparing names in script with male and female names and verifies against ground truth of films that have been verified to pass the bechdel test.
  
 **bechdel criteria:**
 - 1. [x] (of film or literature) Has to have at least two women (discrete int) or $\in \mathbb{Z}$
@@ -13,7 +13,8 @@
 
 **instructions**:
 
-make new virtual environment (mac/linux) with 
+make new virtual environment (mac/linux) with:
+
 ```bash
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user virtualenv
