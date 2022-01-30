@@ -1,4 +1,4 @@
-## Bechdel test
+## Bechdel to Boole 
 ![image info](super_woman.png)
 
 #### There are two parts to this:
@@ -7,9 +7,9 @@
 2. A notebook which evaluates condition one of bechdel test calculated by comparing names in script with male and female names and verifies against ground truth of films that have been verified to pass the bechdel test.
  
 **bechdel criteria:**
-- 1. [x] (of film or literature) Has to have at least two women (discrete int) or $\in \mathbb{Z}$
-- 2. [x] Talk to each other in (continuous time) or $\in \mathbb{R}$
-- 3. [x] Talk about somthing other than a man (not.self) (binary) or $\in \mathbb{B}$ 
+- 1. [x] (of film or literature) Has to have at least two women ((discrete int) or $\in \mathbb{Z}$) **AND**;
+- 2. [x] Talk to each other in ((continuous time) or $\in \mathbb{R}$) **AND**;
+- 3. [x] Talk about somthing other than a man ((not.self) (binary) or $\in \mathbb{B}$)
 
 **instructions to run notebook**:
 
