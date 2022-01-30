@@ -11,7 +11,7 @@
 - 2. [x] Talk to each other in (continuous time) or $\in \mathbb{R}$
 - 3. [x] Talk about somthing other than a man (not.self) (binary) or $\in \mathbb{B}$ 
 
-**instructions**:
+**instructions to run notebook**:
 
 make new virtual environment (mac/linux) with:
 
@@ -24,10 +24,27 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 ```
+Run notebook in vnv
 
+**Instructions to run training software**
+Note -- this is an illustrative work in progress rather than completed software. However will run and and log in to huggingface account and upload formatted data to hugging face. (A little more work would be required to train a binary classifier) 
 
+As above however if running in terminal run 
 
-  
+In activated env virtual and in project main directory 
+
+For list of possible flags:
+
+```bash
+python main.py -help 
+
+```
+
+You will need:
+
+1. A huggingface account;
+3. Your hugging face API key;
+4. Train csv with binary labeled text data.
 
  
 
