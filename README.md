@@ -44,7 +44,7 @@ For a list of possible flags to passable args run:
 
 ```bash
 
- python main.py -help
+ python main.py --help
 
 ```
 To log in to Hugging Face AutoNLP Run:
