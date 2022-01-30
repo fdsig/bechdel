@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Run notebook in vnv
 
 **Instructions to run training software**
-Note -- this is an illustrative work in progress rather than completed software. However will run and and log in to huggingface account and upload formatted data to hugging face. (A little more work would be required to train a binary classifier) 
+Note -- this is an illustrative work in progress rather than completed software. However will run and and log in to hugging face account and upload formatted data to hugging face. (A little more work would be required to train a binary classifier) 
 
 As above however if running in terminal run 
 
@@ -42,7 +42,7 @@ python main.py -help
 
 You will need:
 
-1. A huggingface account;
+1. A hugging face account;
 3. Your hugging face API key;
 4. Train csv with binary labeled text data.
 
