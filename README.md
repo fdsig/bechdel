@@ -18,16 +18,17 @@ Further analysis of other proxies that can be used in a logical/computational ap
 - 2. [x] Talk to each other in (continuous time) **AND**;
 - 3. [x] Talk about something other than a man (binary).
 
-**Instructions to run notebook:**:
+**Instructions to run notebook:**
 
-make new virtual environment (mac/linux) with:
+Make new/install virtual environment (mac/linux) with:
 
 ```bash
 python3 -m pip install --user --upgrade pip
 python3 -m pip install --user virtualenv
 python3 -m venv env
 ```
-Run notebook in vnv
+Run notebook in venv and install dependencies: 
+
 ```bash
 source env/bin/activate
 pip install --upgrade pip
@@ -37,9 +38,7 @@ pip install -r requirements.txt
 
 Note -- this is an illustrative work in progress rather than completed software. However, it will run , log in to Hugging Face AutoNLP  account and upload formatted data to Hugging Face AutoNLP. (A little more work would be required to train a binary classifier)
 
-As above however if running in terminal run
-
-In activated venv with dependencies and in project main directory:
+As above however if running in terminal run activated venv with dependencies and in project main directory:
 
 For a list of possible flags to passable args run:
 
