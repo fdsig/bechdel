@@ -34,7 +34,7 @@ As above however if running in terminal run
 
 In activated env virtual and in project main directory 
 
-For list of possible flags:
+For a list of possible flags to passable args run:
 
 ```bash
 python main.py -help 
@@ -43,9 +43,9 @@ python main.py -help
 
 You will need:
 
-1. A hugging face account;
+1. A hugging face [AutoNLP](https://huggingface.co/autonlp) account;
 3. Your hugging face API key;
-4. Train csv with binary labeled text data.
+4. Train csv with binary labeled text data parsed from [twitter .csv](https://www.kaggle.com/nisasoylu/nlp-for-twitter-gender-classification-nisa/data).
 
-> README.md edited on phone ++ I am dyslexic:: (apologies for typos). 
+
 
