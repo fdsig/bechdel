@@ -77,4 +77,12 @@ You will need:
 
 Depending on your OS there may be other AutoNLP (sub) dependencies when install requirments.txt these will most likely be flagged for further info see [AutoNLP](https://github.com/huggingface/autonlp) GitHub repository. (a very interesting project in its own right)
 
+To do 
+
+- [ ] train on text classifier model 
+- [ ] log with wandb
+- [ ] expand code to include hf model
+
+
+
 
